@@ -484,8 +484,15 @@ alias personal='cp -Rf /personal/* ~'
 #languages
 alias setrul='setxkbmap -layout us,ru -option grp:lwin_toggle'
 
+# Connection alias
+alias gohost='ssh -p 3333 andy@94.131.17.89'
+
 #default editor
 alias nv='nvim'
+
+#scan in color
+alias hp-scan-color='echo -ne "\n" |hp-scan -m color'
+alias hp-scan-gray='echo -ne "\n" |hp-scan'
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
