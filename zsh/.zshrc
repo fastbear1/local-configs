@@ -8,8 +8,8 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=50000
 
-bindkey "\e[H" beginning-of-line
-bindkey "\e[F" end-of-line
+bindkey "\e[F" beginning-of-line
+bindkey "\e[H" end-of-line
 
 setopt inc_append_history
 
@@ -31,8 +31,8 @@ export SUDO_EDITOR="$EDITOR"
 # export ARCHFLAGS="-arch x86_64"
 
 # Set terminal config buttons
-# [[ -n $TMUX ]] && export TERM="xterm-256color"
-# export TERM="xterm-256color"
+#[[ -n $TMUX ]] && export TERM="xterm-256color"
+#    export TERM="xterm-256color"
 
 # Set window title
 function set_win_title(){
