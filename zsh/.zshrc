@@ -8,8 +8,8 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=50000
 
-bindkey "\e[F" beginning-of-line
-bindkey "\e[H" end-of-line
+bindkey "\e[H" beginning-of-line
+bindkey "\e[F" end-of-line
 
 setopt inc_append_history
 
